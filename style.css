@@ -48,8 +48,7 @@
 /* gallery
  */
  
- .gallery {
-       
+ .gallery { 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
@@ -69,7 +68,7 @@
     box-shadow: 0px 0px 10px #ccc;
 }
 .box img{
-    width: 80%;
+    width: 100%;
 }
 
 
@@ -79,37 +78,16 @@
         
     }
     .box{
-        width: 60%;
+        width: 80%;
        margin: 0 auto;
        text-align: center;
        font-size: 20px;
       
     }
     .box img{
-        width: 80%;
+        width: 100%;
     }
 }
-
-
-
-/* footer */
-footer{
-    background-color: #000000;
-    padding: 20px;
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    margin-top: 50px;
-}
-
-
-
-
-
-
-
-
-
 
 
 
@@ -144,5 +122,14 @@ footer{
  }
 }
 
+/* footer */
+footer{
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
 
     
