@@ -39,9 +39,9 @@
   
 }
 .band img{
-    margin-left: 50px;
+    margin-left: 10px;
     width: 53.85px;
-height: 20.52px
+    height: 20.52px
 }
 
 
@@ -66,7 +66,10 @@ height: 20.52px
    .band{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    width: 80%;
+    width: 70%;
+    border: 1px solid rgb(0, 64, 255);
+    margin-left: 50px;
+    
   
    }
 
