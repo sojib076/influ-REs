@@ -35,17 +35,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
   
 }
 .band img{
     margin-left: 50px;
+    width: 53.85px;
+height: 20.52px
 }
 
 
 
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 776px){
  
  .influ{
    display: flex;
@@ -60,12 +63,12 @@
     width: 300px;
     height: 160px;
  }
-   
- .band{
-    display:grid;
+   .band{
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
- }
+  
+   }
+
 }
 
 
