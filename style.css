@@ -66,6 +66,7 @@ height: 20.52px
    .band{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    width: 80%;
   
    }
 
